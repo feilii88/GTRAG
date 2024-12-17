@@ -1,0 +1,35 @@
+# Ignore node_modules as they will be installed in the Docker container  
+node_modules  
+
+# Ignore log files  
+*.log  
+
+# Ignore build artifacts  
+.next  
+out  
+
+# Ignore test directories and files  
+coverage  
+tests  
+test  
+*.spec.js  
+*.test.js  
+
+# Ignore environment files (if not needed in production)  
+# .env  
+.env.local  
+.env.development.local  
+.env.test.local  
+
+# Ignore miscellaneous files  
+.DS_Store  
+*.swp  
+.idea  
+.vscode  
+*.bak  
+*.tmp  
+*.backup  
+
+# Ignore Git files  
+.git  
+.gitignore
